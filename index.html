@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luna Premium Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">L</div>
+        <div>
+          <p class="eyebrow">Premium Store</p>
+          <h1>Luna</h1>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="#produkte">Produkte</a>
+        <a href="#warenkorb">Warenkorb</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <div class="social-links">
+        <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">TikTok</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Luxuriöse Produkte & modernes Erlebnis</p>
+          <h2>Dein dunkler Premium-Shop für stilvolle Essentials</h2>
+          <p>Entdecke zeitlose Designs, einfache Bestellung und ein mobiles Einkaufserlebnis, das glänzt.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#produkte">Zu den Produkten</a>
+            <a class="btn btn-secondary" href="#warenkorb">Warenkorb ansehen</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="card-glow">
+            <span>8% Rabatt</span>
+            <h3>Exklusive Auswahl</h3>
+            <p>Premiumqualität für besondere Momente.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap" id="produkte">
+        <div class="section-header">
+          <p class="eyebrow">Unsere Kollektion</p>
+          <h2>Beliebte Produkte</h2>
+          <p>Finde elegante Produkte für jeden Anlass, sorgfältig ausgewählt für dein Zuhause und deinen Alltag.</p>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="section-wrap cart-section" id="warenkorb">
+        <div class="section-header">
+          <p class="eyebrow">Warenkorb</p>
+          <h2>Bereit für den Checkout</h2>
+        </div>
+        <div class="cart-card">
+          <div class="cart-content" id="cartItems">
+            <p class="cart-empty">Dein Warenkorb ist noch leer. Füge ein Produkt hinzu, um loszulegen.</p>
+          </div>
+          <div class="cart-summary">
+            <div class="summary-row">
+              <span>Zwischensumme</span>
+              <span id="subtotal">0,00 €</span>
+            </div>
+            <div class="summary-row">
+              <span>Versand</span>
+              <span>kostenlos</span>
+            </div>
+            <div class="summary-total">
+              <span>Gesamt</span>
+              <span id="total">0,00 €</span>
+            </div>
+            <button class="btn btn-primary checkout-btn" id="checkoutButton">Zur Kasse</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" id="kontakt">
+      <div>
+        <h3>Luna Premium Store</h3>
+        <p>Elegante Qualität, schneller Service und ein einzigartiges Einkaufserlebnis.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.tiktok.com" target="_blank" rel="noreferrer">TikTok</a>
+        <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
